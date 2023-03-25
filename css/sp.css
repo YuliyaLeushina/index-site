@@ -1,0 +1,142 @@
+.row_block{
+   display: block;
+   }
+   .box-fancy  .col-lg-4{
+      width: 25%;
+   }
+   .portfolio-image img{
+      min-height: 245px;
+      object-fit: cover;
+   }
+   .ac-content > a{
+      display: block;
+      color: #484848;
+   }
+   .container-fullwidth .bg-overlay{
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.6) 100%);
+   }
+   .grid-active-title{
+      z-index: -1;
+   }
+   .ac-content > a :hover{
+      text-decoration: none;
+       outline: none;
+       color: #2250fc;
+   }
+   .link{
+      color: #484848;
+      cursor: pointer;
+   }
+   .link :hover{
+      text-decoration: none;
+       outline: none;
+       color: #2250fc;
+   }
+   .up{
+      background-color: red !important;
+      width: 175px;
+   }
+   .down{
+      top: 42px !important;
+      background-color: #000 !important;
+      width: 175px;
+   }
+   .text-lg{
+      line-height: 1.1;
+   }
+   h1:not(:last-child) {
+      margin-bottom: 10px;
+   }
+   .box-fancy [class*="col-"] { padding: 3% !important; }
+   @media (max-width: 992px){
+      .box-fancy .col-lg-4{
+         width: 100%;
+      }
+      .box-fancy [class*="col-"] { padding: 5% !important; }
+      .text-lg, .text-lg span {
+         font-size: 80px!important;
+         line-height: 60px!important;
+     }
+     .text-light h3{
+      font-size: 17px;
+      text-transform: uppercase;
+     }
+   }
+   @media (max-width: 576px){
+      
+      .box-fancy [class*="col-"] { padding: 10% !important; }
+      .text-lg, .text-lg span {
+         font-size: 80px!important;
+         line-height: 60px!important;
+     }
+   }
+   @media (max-width: 768px){
+     .text-lg, .text-lg span {
+       font-size: 40px!important;
+       line-height: 40px!important;
+   } 
+   }
+   .btn_center{
+      text-align: center;
+      padding-top: 20px;
+   }
+   @media(min-width:992px){
+      .pricing-table{
+      height:100%
+   }
+   .pricing-table .plan{
+      min-height:100%;
+      display: flex;
+      flex-direction: column;
+   }
+   .pricing-table .plan-list {
+      flex: 1 1 100%;
+      display: flex;
+      flex-direction: column;
+   }
+   .pricing-table .plan-list .plan-button {
+      flex: 1 1 100%;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+   }
+   .pricing-table .plan .plan-header .plan-price {
+      font-size: 60px;
+   }
+   }
+   @media(max-width:992px){
+   .pb-5 {
+      padding-bottom: 0rem !important;
+   }
+   }
+   @media (max-width: 991.98px){
+      #header #logo {
+      text-align: start;}
+   }
+   #header .header-inner #logo a, #header .header-inner #logo a span, #header #header-wrap #logo a, #header #header-wrap #logo a span {
+      
+      padding-top: 5px !important;
+   }
+   #header .header-inner #logo, #header #header-wrap #logo {
+      
+      padding-top: 10px !important;
+   }
+   @media (max-width: 991.98px){
+      button.btn:not(.btn-creative):not(.btn-slide), .btn:not(.close):not(.mfp-close):not(.btn-creative):not(.btn-slide), a.btn:not([href]):not([tabindex]):not(.btn-creative):not(.btn-slide) {
+       height: auto; 
+       text-align: center;
+   }
+   .pricing-table .plan {
+      box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+      margin-top: 30px;
+      padding-bottom: 0;
+      margin-bottom: 30px;
+   }
+   .pricing-table .plan.featured {
+      margin-top: 30px;
+   }
+   }
+   
+element.style {
+   /* min-height: 148.75px; */
+}
